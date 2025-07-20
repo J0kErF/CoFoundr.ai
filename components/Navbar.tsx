@@ -44,7 +44,7 @@ export default function Navbar() {
       {/* Mobile Menu */}
       {isOpen && (
         <div className="sm:hidden px-4 pt-4 pb-2 space-y-2 text-sm font-medium">
-          {["features", "how", "pricing", "cta"].map((id) => (
+          {["features", "How It Works", "pricing", "Join"].map((id) => (
             <button
               key={id}
               onClick={() => scrollToSection(id)}
